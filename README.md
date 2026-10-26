@@ -34,6 +34,7 @@ Bu proje, **Yazılım Mühendisliğine Giriş** dersi kapsamında geliştirilmi�
 ## Kurulum ve Çalıştırma
 
 ### 1. Repoyu Klonlayın
-'''bash 
-git clone [https://github.com/ozgurrkaraa6-design/Akilli-ev-enerji-tuketim-tahmini-projesi-Marmara-Uni.git](https://github.com/ozgurrkaraa6-design/Akilli-ev-enerji-tuketim-tahmini-prejesi-Marmara-Uni.git)
-cd Akilli-ev-enerji-tüketim-tahmini-projesi-Marmara-Uni
+```bash
+git clone https://github.com/ozgurrkaraa6-design/Akilli-ev-enerj-tuketim-tahmini-projesi-Marmara-Uni.git
+cd Akilli-ev-enerji-tuketim-tahmini-projesi-Marmara-Uni
+```
