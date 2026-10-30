@@ -24,7 +24,7 @@ Bu proje şirketlerde, evlerde, dükkanlarda kısacası her yerde kullanılabili
 
 ---
 
-## Kullanılam Teknolojiler 
+## Kullanılan Teknolojiler 
 - **Programlama Dili:** Python 3.10+
 - **Veri Analizi & Ön İşleme:** Pandas, NumPy
 - **Makine Öğrenmesi:** Scikit-Learn ('RandomForestRegressor', 'GridSearchCV')
