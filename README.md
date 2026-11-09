@@ -14,6 +14,37 @@ Bu proje şirketlerde, evlerde, dükkanlarda kısacası her yerde kullanılabili
 - **Canlı Web Arayüzü:** Eğitilen model '.joblib' formatında dışa aktarılıp 'Streamlit' tabalı etkileşimli bir kullanıcı paneline dönüştürülmüştür.
 
 ---
+---
+
+## 📋 Proje Yönetimi & Kanban Tablosu
+
+Proje geliştirme süreci Agile/Kanban prensiplerine uygun olarak yürütülmüştür.
+
+| 📌 Yapılacaklar (To Do) | 🔄 Devam Edenler (In Progress) | ✅ Tamamlananlar (Done) |
+| :--- | :--- | :--- |
+| 🔲 Modelin REST API (FastAPI) olarak yayınlanması | ⏳ Canlı sensör verisi simülasyon testi | ☑️ Veri seti ön işleme ve 'lag' öznitelik türetimi |
+| 🔲 Docker konteynerizasyonu | ⏳ Streamlit arayüzünün görsel iyileştirmeleri | ☑️ Baseline model vs. Random Forest karşılaştırması |
+| 🔲 Farklı ML algoritmalarının (XGBoost, LightGBM) denenmesi | | ☑️ GridSearchCV ile hiperparametre optimizasyonu |
+| | | ☑️ Explainable AI (Feature Importance) analizi |
+| | | ☑️ Eğitilen modelin `.joblib` olarak aktarımı ve Streamlit entegrasyonu |
+
+---
+
+## 👥 Ekip Rolleri ve Görev Dağılımı
+
+Projenin başarıyla tamamlanmasında görev alan ekip üyeleri ve üstlendikleri sorumluluklar:
+
+- **[Emirhan  / @GitHubKullanıcıAdı]** – *Veri Bilimcisi & ML Mühendisi*
+  - Veri temizleme, eksik veri yönetimi ve zamansal öznitelik mühendisliği (lag features).
+  - Model seçimi, GridSearchCV optimizasyonu ve başarım metriklerinin (MAE, RMSE, R²) analizi.
+
+- **[Özgür Kara / @GitHubKullanıcıAdı]** – *Yazılım Mühendisi & Arayüz Geliştirici*
+  -
+  -
+
+- **[Umut Eldiven / @Umuteldvn]** – *Veri Analisti & Proje Yöneticisi*
+  - 
+  - 
 
 ## Model Başarım Metrikleri 
 
