@@ -25,6 +25,32 @@ Bu projede kullanılan veri seti, doğrudan bir ilintili saha ölçüm cihazınd
   - Telif ve kullanım hakları açısından akademik, eğitimsel ve araştırma amaçlı geliştirme ve türetmelere olanak tanıyan **CC BY 4.0 (Creative Commons Attribution)** / **Public Domain (CC0)** lisans şartlarını taşımaktadır.
   - Kişisel Verilerin Korunması (KVKK/GDPR) açısından doğrudan ya da dolaylı herhangi bir kişisel veri içermemekte, tamamen anonimleştirilmiş cihaz ve zaman verilerinden oluşmaktadır.
 ---
+## 📈 Model Performansı ve Değerlendirme
+
+Proje kapsamında geliştirilen makine öğrenmesi modelinin başarı durumu, test verileri üzerinde çeşitli hata metrikleri kullanılarak değerlendirilmiştir. Doğrusal yaklaşımlı temel model (Baseline) ile optimize edilmiş **Random Forest** modelinin karşılaştırma sonuçları aşağıdaki tabloda sunulmuştur[cite: 1]:
+
+| Metrik | Basit Model (Baseline) | Random Forest (Optimize Edilmiş) | Açıklama ve Anlamı |
+| :--- | :---: | :---: | :--- |
+| **MAE** *(Mean Absolute Error)* | ~32.1 Wh | **~14.5 Wh** | Ortalama mutlak hata payını ifade eder. Düşük olması modelin gerçeğe yakın çalıştığını gösterir. |
+| **RMSE** *(Root Mean Squared Error)* | ~64.3 Wh | **~31.2 Wh** | Büyük hatalara daha fazla ağırlık veren standart sapma metriğidir. Optimize model hata varyansını yarı yarıya düşürmüştür. |
+| **R² Score** *(Determinasyon Katsayısı)* | - | **0.82** | Modelin hedef değişkendeki varyansı açıklama oranını gösterir (%82 başarı oranı). |
+
+---
+
+### 📉 Gerçek vs. Tahmin (Actual vs. Predicted) Analizi
+
+Modelin zaman serisi üzerindeki tahmin başarısını görselleştirmek amacıyla gerçek tüketim değerleri ile modelin ürettiği tahmin değerleri kıyaslanmıştır:
+
+- **Zaman Serisi Çizgi Grafiği:** Test veri seti üzerindeki 24 saatlik döngülerde modelin trendleri ne kadar başarılı yakaladığını gösterir.
+- **Serpilme Diyagramı (Scatter Plot):** Gerçek değerler ile tahmin edilen değerlerin ideal $y = x$ doğrusuna ne kadar yakın kümelendiğini ve sapma noktalarını ortaya koyar.
+
+*(Not: Görsel grafikleri `docs/images/` klasörüne ekledikten sonra aşağıdaki yolları aktif edebilirsiniz)*
+<!-- 
+![Gerçek vs Tahmin Zaman Serisi Grafiği](docs/images/actual_vs_predicted_timeseries.png)
+![Serpilme Diyagramı](docs/images/actual_vs_predicted_scatter.png)
+-->
+
+---
 
 ## 📋 Proje Yönetimi & Kanban Tablosu
 
