@@ -23,10 +23,10 @@ Proje geliştirme süreci Agile/Kanban prensiplerine uygun olarak yürütülmü�
 | 📌 Yapılacaklar (To Do) | 🔄 Devam Edenler (In Progress) | ✅ Tamamlananlar (Done) |
 | :--- | :--- | :--- |
 | 🔲 Modelin REST API (FastAPI) olarak yayınlanması | ⏳ Canlı sensör verisi simülasyon testi | ☑️ Veri seti ön işleme ve 'lag' öznitelik türetimi |
-| 🔲 Docker konteynerizasyonu | ⏳ Streamlit arayüzünün görsel iyileştirmeleri | ☑️ Baseline model vs. Random Forest karşılaştırması |
-| 🔲 Farklı ML algoritmalarının (XGBoost, LightGBM) denenmesi | | ☑️ GridSearchCV ile hiperparametre optimizasyonu |
+| 🔲 Docker konteynerizasyonu | ⏳ HTML,JavaScript,CSS ile Arayüz İyileştirmesi | ☑️ Baseline model vs. Random Forest karşılaştırması |
+| | | ☑️ GridSearchCV ile hiperparametre optimizasyonu |
 | | | ☑️ Explainable AI (Feature Importance) analizi |
-| | | ☑️ Eğitilen modelin `.joblib` olarak aktarımı ve Streamlit entegrasyonu |
+| | | ☑️ Eğitilen modelin `.joblib` olarak aktarımı |
 
 ---
 
@@ -34,17 +34,21 @@ Proje geliştirme süreci Agile/Kanban prensiplerine uygun olarak yürütülmü�
 
 Projenin başarıyla tamamlanmasında görev alan ekip üyeleri ve üstlendikleri sorumluluklar:
 
-- **[Emirhan  / @GitHubKullanıcıAdı]** – *Veri Bilimcisi & ML Mühendisi*
-  - Veri temizleme, eksik veri yönetimi ve zamansal öznitelik mühendisliği (lag features).
-  - Model seçimi, GridSearchCV optimizasyonu ve başarım metriklerinin (MAE, RMSE, R²) analizi.
+- **[Batuhan Güney  / @Bthn0]** – *Raporlama ve Değerlendirme*
+  - Proje raporunun hazırlanması
+  - yapılan çalışmaları değerlendirme
 
-- **[Özgür Kara / @GitHubKullanıcıAdı]** – *Yazılım Mühendisi & Arayüz Geliştirici*
-  -
-  -
+- **[Emirhan Bilgin  / @Twoughtt]** – *Veri Bilimcisi & Kontrolcüsü *
+  - Kodlama ve Arayüz Sonucu ortaya çıkan verileri ve akışı kontrol etme.
+  - Grafik uygunluk denetleme.
 
-- **[Umut Eldiven / @Umuteldvn]** – *Veri Analisti & Proje Yöneticisi*
-  - 
-  - 
+- **[Özgür Kara / @Gozgurrkaraa6-design]** – *Yazılım & Arayüz Geliştiricisi*
+  -Kodlama ve Arayüz geliştirme.
+  -Verisetini entegre etme.
+
+- **[Umut Eldiven / @Umuteldvn]** – *Veri Analizi & Proje Yönetimi & Sunu Hazırlama *
+  - Veriseti Bulma ve uygunluğunu kontrol etme.
+  - Projenin Haftalık akışını kontrol etme ve yönlendirme.
 
 ## Model Başarım Metrikleri 
 
