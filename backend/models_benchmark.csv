@@ -1,0 +1,4 @@
+Model,MAE (Wh),RMSE (Wh),R² Skoru
+Linear Regression,29.71,60.82,0.554
+Decision Tree,74.52,152.56,-1.808
+Random Forest (Optimize),45.39,75.48,0.313
