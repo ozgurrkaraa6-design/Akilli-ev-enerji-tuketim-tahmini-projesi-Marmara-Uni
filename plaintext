@@ -1,0 +1,15 @@
+smart-home-energy-prediction/
+│
+├── backend/
+│   ├── main.py              # FastAPI Web Sunucusu ve Model Servisi
+│   ├── energy_model.joblib  # Eğitilmiş Model
+│   └── models_benchmark.csv # Benchmark verileri
+│
+├── frontend/
+│   ├── index.html           # HTML Arayüzü
+│   ├── style.css            # CSS Tasarımı
+│   └── script.js            # JavaScript (Fetch API & Chart.js)
+│
+├── Dockerfile               # Docker Konteyner Kuralları
+├── requirements.txt         # Güncellenmiş Python Bağımlılıkları
+└── model.py                 # Eğitimi yapan script
