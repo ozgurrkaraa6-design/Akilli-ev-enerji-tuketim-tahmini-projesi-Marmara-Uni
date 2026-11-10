@@ -14,6 +14,16 @@ Bu proje şirketlerde, evlerde, dükkanlarda kısacası her yerde kullanılabili
 - **Canlı Web Arayüzü:** Eğitilen model '.joblib' formatında dışa aktarılıp 'Streamlit' tabalı etkileşimli bir kullanıcı paneline dönüştürülmüştür.
 
 ---
+## 📊 Veri Kaynağı ve İkincil Veri Analizi
+
+Bu projede kullanılan veri seti, doğrudan bir ilintili saha ölçüm cihazından toplanmak yerine halka açık ve güvenilir akademik/endüstriyel veri depolarından (ör. Kaggle / UCI Machine Learning Repository) elde edilmiştir (**İkincil Veri Analizi**). 
+
+- **Veri Kaynağı:** Projede kullanılan açık veri seti, evsel enerji tüketimi, zaman damgaları (timestamp), iklimsel ortam değişkenleri ve geçmiş saatlik tüketim değerlerini içermektedir.
+- **İkincil Veri Kullanım Amacı:** Toplanan ham verinin temizlenmesi, eksik verilerin doldurulması (imputation), gürültülerden arındırılması ve öznitelik mühendisliği (feature engineering) süreçlerinden geçirilerek makine öğrenmesi modellerine girdi sağlanması amacıyla ikincil analize tabi tutulmuştur.
+- **Erişim ve Lisans Uygunluğu:** 
+  - Veri seti açık erişim ilkelerine (Open Access) uygundur.
+  - Telif ve kullanım hakları açısından akademik, eğitimsel ve araştırma amaçlı geliştirme ve türetmelere olanak tanıyan **CC BY 4.0 (Creative Commons Attribution)** / **Public Domain (CC0)** lisans şartlarını taşımaktadır.
+  - Kişisel Verilerin Korunması (KVKK/GDPR) açısından doğrudan ya da dolaylı herhangi bir kişisel veri içermemekte, tamamen anonimleştirilmiş cihaz ve zaman verilerinden oluşmaktadır.
 ---
 
 ## 📋 Proje Yönetimi & Kanban Tablosu
