@@ -43,8 +43,8 @@ Projenin başarıyla tamamlanmasında görev alan ekip üyeleri ve üstlendikler
   - Grafik uygunluk denetleme.
 
 - **[Özgür Kara / @Gozgurrkaraa6-design]** – *Yazılım & Arayüz Geliştiricisi*
-  -Kodlama ve Arayüz geliştirme.
-  -Verisetini entegre etme.
+  - Kodlama ve Arayüz geliştirme.
+  - Verisetini entegre etme.
 
 - **[Umut Eldiven / @Umuteldvn]** – *Veri Analizi & Proje Yönetimi & Sunu Hazırlama *
   - Veriseti Bulma ve uygunluğunu kontrol etme.
