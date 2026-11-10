@@ -100,9 +100,19 @@ Projenin başarıyla tamamlanmasında görev alan ekip üyeleri ve üstlendikler
 
 ---
 
-## Kurulum ve Çalıştırma
+## 📊 Veri Seti
+
+Projede kullanılan **Appliances Energy Prediction** veri setini aşağıdaki bağlantıdan indirebilirsiniz:
+- 🔗 **[Kaggle - Appliances Energy Prediction Dataset](https://www.kaggle.com/datasets/loveall/appliances-energy-prediction-dataset)** veya **[UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction)**
+
+İndirdiğiniz `energydata_complete.csv` dosyasını proje içerisindeki `data/` klasörüne yerleştirmeniz gerekmektedir:
+`smart-home-energy-prediction/data/energydata_complete.csv`
+
+---
+
+## 🚀 Kurulum ve Çalıştırma
 
 ### 1. Repoyu Klonlayın
 ```bash
-git clone [https://github.com/ozgurrkaraa6-design/Akilli-ev-enerj-tuketim-tahmini-projesi-Marmara-Uni.git](https://github.com/ozgurrkaraa6-design/Akilli-ev-enerj-tuketim-tahmini-projesi-Marmara-Uni.git)
-cd Akilli-ev-enerj-tuketim-tahmini-projesi-Marmara-Uni
+git clone [https://github.com/ozgurrkaraa6-design/Akilli-ev-enerji-tuketim-tahmini-projesi-Marmara-Uni.git](https://github.com/ozgurrkaraa6-design/Akilli-ev-enerji-tuketim-tahmini-projesi-Marmara-Uni.git)
+cd Akilli-ev-enerji-tuketim-tahmini-projesi-Marmara-Uni
