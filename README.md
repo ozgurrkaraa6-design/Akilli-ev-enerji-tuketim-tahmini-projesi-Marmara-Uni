@@ -74,3 +74,35 @@ Proje geliştirme süreci Agile/Kanban prensiplerine uygun olarak yürütülmü�
 Projenin başarıyla tamamlanmasında görev alan ekip üyeleri ve üstlendikleri sorumluluklar[cite: 1]:
 
 - **[Batuhan Güney  / @Bthn0]** – *Raporlama ve Değerlendirme*[cite: 1]
+  - Proje raporunun hazırlanması[cite: 1]
+  - Yapılan çalışmaları değerlendirme[cite: 1]
+
+- **[Emirhan Bilgin  / @Twoughtt]** – *Veri Bilimcisi & Kontrolcüsü*[cite: 1]
+  - Kodlama ve Arayüz Sonucu ortaya çıkan verileri ve akışı kontrol etme[cite: 1].
+  - Grafik uygunluk denetleme[cite: 1].
+
+- **[Özgür Kara / @Gozgurrkaraa6-design]** – *Yazılım & Arayüz Geliştiricisi*[cite: 1]
+  - Kodlama ve Arayüz geliştirme[cite: 1].
+  - Verisetini entegre etme[cite: 1].
+
+- **[Umut Eldiven / @Umuteldvn]** – *Veri Analizi & Proje Yönetimi & Sunu Hazırlama*[cite: 1]
+  - Veriseti bulma ve uygunluğunu kontrol etme[cite: 1].
+  - Projenin haftalık akışını kontrol etme ve yönlendirme[cite: 1].
+
+---
+
+## Kullanılan Teknolojiler 
+- **Programlama Dili:** Python 3.10+[cite: 1]
+- **Veri Analizi & Ön İşleme:** Pandas, NumPy[cite: 1]
+- **Makine Öğrenmesi:** Scikit-Learn ('RandomForestRegressor', 'GridSearchCV')[cite: 1]
+- **Görselleştirme:** Matplotlib, Seaborn[cite: 1]
+- **Arayüz & Yaygınlaştırma:** Streamlit, Joblib[cite: 1]
+
+---
+
+## Kurulum ve Çalıştırma
+
+### 1. Repoyu Klonlayın
+```bash
+git clone [https://github.com/ozgurrkaraa6-design/Akilli-ev-enerj-tuketim-tahmini-projesi-Marmara-Uni.git](https://github.com/ozgurrkaraa6-design/Akilli-ev-enerj-tuketim-tahmini-projesi-Marmara-Uni.git)
+cd Akilli-ev-enerj-tuketim-tahmini-projesi-Marmara-Uni
