@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ Akıllı Ev Enerji Tahmin Paneli</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ Akıllı Ev Enerji Tüketim Tahmin Paneli</h1>
+        
+        <form id="prediction-form">
+            <div class="form-grid">
+                <div>
+                    <label>Şu Anki Tüketim (Wh):</label>
+                    <input type="number" id="energy_previous" value="50" required>
+                </div>
+                <div>
+                    <label>1 Saat Önceki Tüketim (Wh):</label>
+                    <input type="number" id="energy_1_step_ago" value="40" required>
+                </div>
+                <div>
+                    <label>2 Saat Önceki Tüketim (Wh):</label>
+                    <input type="number" id="energy_2_step_ago" value="30" required>
+                </div>
+                <div>
+                    <label>Saat (0-23):</label>
+                    <input type="number" id="hour" value="14" min="0" max="23" required>
+                </div>
+                <div>
+                    <label>Mutfak Sıcaklığı (°C):</label>
+                    <input type="number" id="T1" step="0.1" value="21.0" required>
+                </div>
+                <div>
+                    <label>Dış Hava Sıcaklığı (°C):</label>
+                    <input type="number" id="T_out" step="0.1" value="6.0" required>
+                </div>
+            </div>
+            
+            <button type="submit">🔮 Tahmin Et ve Analiz Et</button>
+        </form>
+
+        <div id="results" class="results-card" style="display:none;">
+            <h2>📊 Tahmin Sonuçları</h2>
+            <div class="metrics">
+                <div><span id="res-wh">0</span> Wh</div>
+                <div><span id="res-cost">0</span> TL</div>
+                <div><span id="res-co2">0</span> kg CO₂</div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="energyChart"></canvas>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
