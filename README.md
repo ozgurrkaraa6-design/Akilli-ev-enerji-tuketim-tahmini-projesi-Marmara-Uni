@@ -37,6 +37,10 @@ Proje kapsamında geliştirilen makine öğrenmesi modelinin başarı durumu, te
 
 ---
 
+## Modellerin Hata Oranı Kıyaslaması
+<img width="1548" height="830" alt="WhatsApp Image 2026-11-10 at 09 27 08" src="https://github.com/user-attachments/assets/13fcf697-aaf5-4ef9-b98e-ca5b86bfdbfa" />
+
+
 ### 📉 Gerçek vs. Tahmin (Actual vs. Predicted) Analizi
 
 Modelin zaman serisi üzerindeki tahmin başarısını görselleştirmek amacıyla gerçek tüketim değerleri ile modelin ürettiği tahmin değerleri kıyaslanmıştır:
@@ -85,13 +89,6 @@ Projenin başarıyla tamamlanmasında görev alan ekip üyeleri ve üstlendikler
 - **[Umut Eldiven / @Umuteldvn]** – *Veri Analizi & Proje Yönetimi & Sunu Hazırlama *
   - Veriseti Bulma ve uygunluğunu kontrol etme.
   - Projenin Haftalık akışını kontrol etme ve yönlendirme.
-
-## Model Başarım Metrikleri 
-
-| Metrik | Basit Model (Baseline) | Random Forest (Optimize)|
-| **MAE (Mean Absolute Error)** | ~32.1 Wh | **~14.5 Wh** |
-| **RMSE (Root Mean Squared Error)** | ~64.3 Wh | **~31.2 Wh**|
-| **R² Score** | - | **0.82** | 
 
 ---
 
