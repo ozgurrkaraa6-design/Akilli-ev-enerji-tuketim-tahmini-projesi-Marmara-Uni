@@ -96,7 +96,7 @@ Projenin başarıyla tamamlanmasında görev alan ekip üyeleri ve üstlendikler
 - **Veri Analizi & Ön İşleme:** Pandas, NumPy[cite: 1]
 - **Makine Öğrenmesi:** Scikit-Learn ('RandomForestRegressor', 'GridSearchCV')[cite: 1]
 - **Görselleştirme:** Matplotlib, Seaborn[cite: 1]
-- **Arayüz & Yaygınlaştırma:** Streamlit, Joblib[cite: 1]
+- **Arayüz & Yaygınlaştırma:** Streamlit, Joblib, HTML, CSS, JavaScript, Docker, Render[cite: 1]
 
 ---
 
